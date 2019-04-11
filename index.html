@@ -7,52 +7,47 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Trabalho de Fundamentos de Gestão</title>
-
-    <style>
-      #myTab {
-        /* overflow: auto; */
-      }
-    </style>
   </head>
   <body>
-    <!--
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a href="#" class="navbar-brand">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <!-- <a href="/" class="navbar-brand">Início</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">Home</li>
-          <li class="nav-item">Cultura do Consumo</li>
-          <li class="nav-item">A Escassez de Recursos Naturais</li>
-          <li class="nav-item">Crise Ética</li>
+        <ul class="navbar-nav nav mr-auto" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="violencia-tab" data-toggle="tab" href="#violencia" role="tab" aria-controls="violencia" aria-selected="false">Violência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="consumo-tab" data-toggle="tab" href="#consumo" role="tab" aria-controls="consumo" aria-selected="false">Cultura do Consumo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="escassez-tab" data-toggle="tab" href="#escassez" role="tab" aria-controls="escassez" aria-selected="false">A Escassez de Recursos Naturais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="etica-tab" data-toggle="tab" href="#etica" role="tab" aria-controls="etica" aria-selected="false">Crise Ética</a>
+          </li>
+
         </ul>
       </div>
-    </nav>-->
-
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item">
-        <a href="#home" class="nav-link active" id="home-tab" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="#violencia" class="nav-link" id="violencia-tab" data-toggle="tab" role="tab" aria-controls="violencia" aria-selected="false">Violência</a>
-      </li>
-      <li class="nav-item">
-        <a href="#consumo" class="nav-link" id="consumo-tab" data-toggle="tab" role="tab" aria-controls="violencia" aria-selected="false">Cultura do Consumo</a>
-      </li>
-      <li class="nav-item">
-        <a href="#escassez" class="nav-link" id="escassez-tab" data-toggle="tab" role="tab" aria-controls="violencia" aria-selected="false">A Escassez de Recursos Naturais</a>
-      </li>
-      <li class="nav-item">
-        <a href="#etica" class="nav-link" id="etica-tab" data-toggle="tab" role="tab" aria-controls="violencia" aria-selected="false">Crise Ética</a>
-      </li>
-    </ul>
+    </nav>
 
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        <h1>Home</h1>
-        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-3">Olá, mundo</h1>
+            <p>Aqui pode entrar um texto introdutório, talvez até com um resumo do relatório que será entregue.</p>
+          </div>
+        </div>
       </div>
+
       <div class="tab-pane fade" id="violencia" role="tabpanel" aria-labelledby="violencia-tab">
         <h1>Violência</h1>
         <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
